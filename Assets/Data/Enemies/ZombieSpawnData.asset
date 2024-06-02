@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e507c9298f6c854bad4f318520d89de, type: 3}
+  m_Name: ZombieSpawnData
+  m_EditorClassIdentifier: 
+  <SpawnPrefab>k__BackingField: {fileID: 6525124585636088308, guid: 6fe213f04d861d044aec10b37ebb3ee5, type: 3}
+  <SpawnDelay>k__BackingField: 2
+  <EnemyConfig>k__BackingField:
+    <Speed>k__BackingField: 5
+    <Health>k__BackingField: 30
+    <Damage>k__BackingField: 10
+    drops:
+    - <DropPrefab>k__BackingField: {fileID: 4045779913738201577, guid: 72549ae68c37cc6448fbbe72a1d69218, type: 3}
+      <Amount>k__BackingField: 1
+      <Probability>k__BackingField: 1
+    - <DropPrefab>k__BackingField: {fileID: -2981185806472995215, guid: a4dca45a887c01b40b5dde9ea833c572, type: 3}
+      <Amount>k__BackingField: 8
+      <Probability>k__BackingField: 0.01
+  spawnIntervals:
+  - <PlayerLevel>k__BackingField: 1
+    <SpawnInterval>k__BackingField: 3
+  - <PlayerLevel>k__BackingField: 4
+    <SpawnInterval>k__BackingField: 1.5
+  - <PlayerLevel>k__BackingField: 7
+    <SpawnInterval>k__BackingField: 1

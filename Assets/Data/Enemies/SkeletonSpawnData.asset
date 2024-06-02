@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e507c9298f6c854bad4f318520d89de, type: 3}
+  m_Name: SkeletonSpawnData
+  m_EditorClassIdentifier: 
+  <SpawnPrefab>k__BackingField: {fileID: 6525124585636088308, guid: 55ab2fcd9f751c74c93c93c29ee26399, type: 3}
+  <SpawnDelay>k__BackingField: 0
+  <EnemyConfig>k__BackingField:
+    <Speed>k__BackingField: 7
+    <Health>k__BackingField: 50
+    <Damage>k__BackingField: 15
+    drops:
+    - <DropPrefab>k__BackingField: {fileID: 4045779913738201577, guid: 72549ae68c37cc6448fbbe72a1d69218, type: 3}
+      <Amount>k__BackingField: 4
+      <Probability>k__BackingField: 1
+    - <DropPrefab>k__BackingField: {fileID: -2981185806472995215, guid: a4dca45a887c01b40b5dde9ea833c572, type: 3}
+      <Amount>k__BackingField: 8
+      <Probability>k__BackingField: 0.1
+    - <DropPrefab>k__BackingField: {fileID: 6996298504446600255, guid: d88d089f69533b045b191159fb8f7cc0, type: 3}
+      <Amount>k__BackingField: 5
+      <Probability>k__BackingField: 0.01
+  spawnIntervals:
+  - <PlayerLevel>k__BackingField: 3
+    <SpawnInterval>k__BackingField: 10
+  - <PlayerLevel>k__BackingField: 4
+    <SpawnInterval>k__BackingField: 5
+  - <PlayerLevel>k__BackingField: 7
+    <SpawnInterval>k__BackingField: 3.3333333
